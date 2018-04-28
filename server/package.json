@@ -1,0 +1,31 @@
+{
+  "name": "hatank-server",
+  "version": "1.0.0",
+  "description": "菜肴ing-服务端",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ccap": "^0.6.10",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "md5": "^2.2.1",
+    "mongoose": "^5.0.0",
+    "multer": "^1.3.0",
+    "request": "^2.83.0",
+    "session": "^0.1.0",
+    "svg-captcha": "^1.3.11",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js启动服务端"
+  },
+  "keywords": [
+    "hatank-server"
+  ],
+  "author": "chenyulong",
+  "license": "ISC"
+}
